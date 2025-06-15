@@ -35,6 +35,7 @@ No resources.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_alb_dns_name"></a> [alb\_dns\_name](#output\_alb\_dns\_name) | n/a |
 | <a name="output_instance_ids"></a> [instance\_ids](#output\_instance\_ids) | n/a |
 | <a name="output_instance_public_ips"></a> [instance\_public\_ips](#output\_instance\_public\_ips) | n/a |
 | <a name="output_internet_gateway_id"></a> [internet\_gateway\_id](#output\_internet\_gateway\_id) | n/a |
