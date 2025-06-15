@@ -1,1 +1,44 @@
-https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=usecase34.drawio&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22Page-1%22%20id%3D%22E3dcOHlC63rtBxTDe2RY%22%3E7VvbduI2FP0aHsOyfIXHCSTNtGnLatJp54klbGE0MZaXLW79%2BpFsCWxJFCbDpZ4SCEEbXffZ51g6OB1nMF%2F%2FlMNs9iuJUNKxrWjdcYYd2w6CHnvlwKYCXN%2BqgDjHUQWBHfCC%2F0EClNUWOEJFoyIlJKE4a4IhSVMU0gYG85ysmtWmJGmOmsEYacBLCBMd%2FQtHdFahPc%2Fa4U8IxzM5MrDEJ3MoKwugmMGIrGqQ89BxBjkhtHo3Xw9QwrmTvFTtHvd8up1YjlJ6TINfVvP%2BLP3j56fppyh%2FjYPfvjz9eWdXvSxhshAL%2FjQaiPnSjSSheEM05KuxOs49WdAEp2iwJZyDcQ4jzCYyIAnJGZaSlLW9n9F5wkqAvV3NMEUvGQx5nyumFYZNSUqFyYEty2JY3iujLOPv5%2BuYi6sLV4XbjXOyyMohPzKjGz8dL7OQN6c5eUNySh3b6QV90Pf5QDhJlKkuUU4xs%2FuHBMe8V0r4IFCUEjSlvEc2f5zGz2Vp6FhizqYhIljMUCQWIlhmQ6D1XvOBrSiYMyEyRzTfsCqigfQb4UdAymq1U6XfE9ispkinL0AoPCHedr0TC3sj9PIN2ulp2vmYUpSniHZsn1EBSmFAilZw8w5JKcSyxyOf3D6pacbeNqgbm%2BHT8ke1kDT%2FM5ygZEQKTHEprgmhlMwP6iNEfOlNxR9SNyyyarVTvObzMMs9RwVZ5CGqxH7PiibZY8H8WPJ9Es05vabo%2BgbNGSTnn0txfU1xmq7wvAzoOrkZyjGbBTfSkA3Frh9otIPqdtNsuo3clqoaEQ9euRaGDgPE8EM8j9kKEzxhrzCkeInGEc7ZjAin4XFrrjAhi6hbLONTGcxrGMzRDeaZYgToemcymbyOG6OEYju2bnrAFKoXznEU8ebGywu7FKTRKWOw6zX9YcdbjeDtDqDB8LlcAoDDPoHS6APfCnEiE1gUuLo4wpzqcI38Jn2MonzzNy%2BwNYviZ1GzLAzX9ZrDTYN2FGnbLIV0NuMyzh2%2B4LCJx4geChO6EQ84gcRylEDusM2tpMFuYoQRYd68P2bagWL6apmiVX2%2FpnTkOkpHttJRxYPWUSmj7bK%2FQ1n63vBlMTH5beu2h0W1jh9sh7jdEkrBGC7Xtik4AVWip4tOzk1DrdKQ2%2F%2Fvacg9fIVrqCfjEbGchXfPnmxeg%2BrXY1UHHOnangE0YYEOAr0a%2BwNMI6igCQt0EOjVeEnOugmasMDTZ6y2BobWQGnNnt94OFPOWg%2FDgG%2BHDE7yQ57CUGifKJT3QHOj6etuKDNrdS%2BU2Omd0Ls54c0J%2F19O6Kmnvas7oX%2FYCXeHtvL8nIeS9kbuApjVYFmlTgz7lj2bL97hCFJ%2BnmcgW7flbnuW6fJThUTVGo5XepOa3rBNmxPglg51HqsckZVqRsOhSfHvS0Aprv746H8wuLpMkapOleAJnECRhILJZAyzLGGezR1%2BnBAYjScwgWmI8rEFTpShcoKu3zRkoLuVG3Rdq%2F7j60Z1WTQ9k0mlhm4mPerMAKxjDAqMNjyXBS%2BVFuucLr0lA8nB%2FFbPbI7r5LecU%2BW3nAvnt6Qizp85XWMqEqeOK8qfyzIQpV3qlBc2tULtK4pTy03SfZPbZeR2RBqjJjc9u7VPVH271xBVz%2FVbIavqSHnT1ffq6oiT%2BTt0BRqa8q6pqCoB2HqhOK7T6Mi1LiwU%2FfQIrG75YP3J3Vmbvo59390JZ%2Fsq1g7%2BjWAZ%2F9tEsJaGtK5NsX7PUUkxaC3FnnJf1%2FUp1tMZMLtjQY7O7kD7%2BFUlbAgSQf%2BC9MqOjfTCFvKr3qVgSpJelGD95L8jeNI%2Bgl1FwNcnWD83v3ISW8fsdicnmTXcLXfR0Ovod0v8nqGUIaOcfOG5xdZxDNQbEs1Ze1mrQbN%2FLpr1k%2FgQLZ%2FhG2ofv55yqHDk4k5PLivu%2FlmhOpTs%2FuPDefgK%3C%2Fdiagram%3E%3C%2Fmxfile%3E
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.12.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.0 |
+
+## Providers
+
+No providers.
+
+## Modules
+
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_alb"></a> [alb](#module\_alb) | ./modules/terraform-aws-alb | n/a |
+| <a name="module_ec2"></a> [ec2](#module\_ec2) | ./modules/terraform-aws-ec2 | n/a |
+| <a name="module_vpc"></a> [vpc](#module\_vpc) | ./modules/terraform-aws-vpc | n/a |
+
+## Resources
+
+No resources.
+
+## Inputs
+
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_nat_count"></a> [nat\_count](#input\_nat\_count) | Number of NAT gateways | `number` | n/a | yes |
+| <a name="input_priv_sub_count"></a> [priv\_sub\_count](#input\_priv\_sub\_count) | Number of private subnets | `number` | n/a | yes |
+| <a name="input_pub_sub_count"></a> [pub\_sub\_count](#input\_pub\_sub\_count) | Number of public subnets | `number` | n/a | yes |
+| <a name="input_public_instance"></a> [public\_instance](#input\_public\_instance) | Number of public EC2 instances to create | `number` | n/a | yes |
+| <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | CIDR block for the VPC | `string` | n/a | yes |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| <a name="output_instance_ids"></a> [instance\_ids](#output\_instance\_ids) | n/a |
+| <a name="output_instance_public_ips"></a> [instance\_public\_ips](#output\_instance\_public\_ips) | n/a |
+| <a name="output_internet_gateway_id"></a> [internet\_gateway\_id](#output\_internet\_gateway\_id) | n/a |
+| <a name="output_my_vpc_id"></a> [my\_vpc\_id](#output\_my\_vpc\_id) | n/a |
+| <a name="output_nat_gateway_ids"></a> [nat\_gateway\_ids](#output\_nat\_gateway\_ids) | n/a |
+| <a name="output_private_subnet_ids"></a> [private\_subnet\_ids](#output\_private\_subnet\_ids) | n/a |
+| <a name="output_public_subnet_ids"></a> [public\_subnet\_ids](#output\_public\_subnet\_ids) | n/a |
