@@ -9,6 +9,7 @@ on:
         default: 'destroy'
         type: choice
         options:
+          - apply
           - destroy
 
 permissions:
