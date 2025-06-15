@@ -78,12 +78,6 @@ jobs:
           conftest test tfplan.json --policy policy/
         continue-on-error: true
 
-      - name: Run Checkov
-        uses: bridgecrewio/checkov-action@v12
-        with:
-          directory: ./
-          framework: terraform
-        continue-on-error: true
       - name: Run Checkov with custom SG rule
         uses: bridgecrewio/checkov-action@v12
         with:
