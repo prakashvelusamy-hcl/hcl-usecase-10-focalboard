@@ -89,7 +89,7 @@ jobs:
         with:
           directory: ./
           framework: terraform
-          external-checks-dir: ./custom_policies
+          external-checks-dirs: ./custom_policies
         continue-on-error: true
 
 
