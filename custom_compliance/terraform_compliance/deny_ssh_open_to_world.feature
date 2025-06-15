@@ -1,6 +1,8 @@
-Feature: Deny SSH open to the world
+Feature: Ensure no security group allows SSH from the public internet
 
-  Scenario: Security group ingress rule should not allow 0.0.0.0/0 on port 22
+  Scenario: Security groups must not allow port 22 from 0.0.0.0/0
     Given I have aws_security_group defined
-    When it contains ingress with from_port equals 22 and to_port equals 22
-    Then it must not contain cidr_blocks with 0.0.0.0/0
+    When it contains ingress
+    And it contains port 22
+    And it contains cidr_blocks
+    Then its value must not be 0.0.0.0/0
