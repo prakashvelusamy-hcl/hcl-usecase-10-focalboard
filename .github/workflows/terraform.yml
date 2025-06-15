@@ -61,9 +61,9 @@ jobs:
         run: |
           pip install terraform-compliance
 
-      - name: Run terraform-compliance Tests
+      - name: Run terraform-custom-compliance Tests
         run: |
-          terraform-compliance -p tfplan.json -f tests/terraform_compliance
+          terraform-compliance -p tfplan.json -f custom_compliance/terraform_compliance
         continue-on-error: true
 
       - name: Install Conftest
