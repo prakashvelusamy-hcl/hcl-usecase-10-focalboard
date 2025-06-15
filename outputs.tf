@@ -25,9 +25,9 @@ output "instance_ids" {
 output "instance_public_ips" {
   value = module.ec2.public_instance_ips
 }
-# output "alb_dns_name" {
-#   value = module.ec2.alb_dns_name
-# }
+output "alb_dns_name" {
+  value = module.alb.alb_dns_name
+}
 # output "test_user_data" {
 # value= module.ec2.test_user_data_content  
 # }
