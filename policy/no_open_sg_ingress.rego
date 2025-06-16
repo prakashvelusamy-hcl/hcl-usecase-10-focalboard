@@ -1,4 +1,4 @@
-package terraform.securitygroup
+package main
 
 deny[msg] {
   input.resource_changes[_].type == "aws_security_group"
