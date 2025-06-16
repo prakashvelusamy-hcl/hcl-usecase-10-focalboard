@@ -123,7 +123,7 @@ jobs:
         run: terraform validate -no-color
 
       - name: Terraform test
-        run: terraform test -filter=terraform-tests/demo.tftest.hcl
+        run: terraform test -filter=./tests/demo.tftest.hcl
       - name: Terraform Plan
         id: plan
         if: github.event_name == 'pull_request'
