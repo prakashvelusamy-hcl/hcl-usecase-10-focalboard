@@ -1,11 +1,6 @@
 run "test_ec2_instance_creation" {
   command = apply
 
-  # Variables (if needed)
-  variables {
-    expected_name = "Public-Instance-FocalBoard"
-  }
-
   # Check if the EC2 instance ID is not empty (meaning it was created)
   assert {
     condition     = length(aws_instance.public_instances[*].id) > 0
