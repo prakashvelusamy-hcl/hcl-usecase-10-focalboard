@@ -122,6 +122,9 @@ jobs:
         id: validate
         run: terraform validate -no-color
 
+      - name: Working Dir
+        run: pwd
+        
       - name: Terraform test
         run: terraform test -filter=./tests/demo.tftest.hcl
       - name: Terraform Plan
