@@ -23,3 +23,4 @@ run "test_ec2_instance_creation" {
     condition     = alltrue([for instance in aws_instance.public_instances : instance.instance_type == "t3.medium"])
     error_message = "EC2 instance type is not t3.medium"
   }
+  }
